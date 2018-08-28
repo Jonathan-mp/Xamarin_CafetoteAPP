@@ -21,8 +21,8 @@
         </Grid.RowDefinitions>
           <Image Source="background.jpg" Aspect="AspectFill" Grid.Column="0" Grid.ColumnSpan="5" Grid.Row="0" Grid.RowSpan="5"></Image>
           
-          <BoxView BackgroundColor="White" Opacity=".7" Grid.Column="0" Grid.ColumnSpan="5" Grid.Row="0" Grid.RowSpan="5"></BoxView>
-          <Image Source="logo.png" Grid.Column="0" Grid.ColumnSpan="5" Grid.Row="0" Grid.RowSpan="2" VerticalOptions="Center" Aspect="AspectFit"></Image>
+          <BoxView BackgroundColor="White" Opacity=".8" Grid.Column="0" Grid.ColumnSpan="5" Grid.Row="0" Grid.RowSpan="5"></BoxView>
+          <Image Source="logo.png" Grid.Column="1" Grid.ColumnSpan="4" Grid.Row="0" Grid.RowSpan="2" VerticalOptions="Center"></Image>
           <Button Text="Continue to main page" Grid.Column="1" Grid.ColumnSpan="3" Grid.Row="4" VerticalOptions="Center"></Button>
     </Grid>
       

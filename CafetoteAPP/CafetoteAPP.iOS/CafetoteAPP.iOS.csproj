@@ -157,4 +157,8 @@
       <Name>CafetoteAPP</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\background.jpg" />
+    <BundleResource Include="Resources\logo.png" />
+  </ItemGroup>
 </Project>
