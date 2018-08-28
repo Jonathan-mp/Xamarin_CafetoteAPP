@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:CafetoteAPP"
+             
+             x:Class="CafetoteAPP.MainPage">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width=".5*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width=".5*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+          <Image Source="background.jpg" Aspect="AspectFill" Grid.Column="0" Grid.ColumnSpan="5" Grid.Row="0" Grid.RowSpan="5"></Image>
+          
+          <BoxView BackgroundColor="White" Opacity=".7" Grid.Column="0" Grid.ColumnSpan="5" Grid.Row="0" Grid.RowSpan="5"></BoxView>
+          <Image Source="logo.png" Grid.Column="0" Grid.ColumnSpan="5" Grid.Row="0" Grid.RowSpan="2" VerticalOptions="Center" Aspect="AspectFit"></Image>
+          <Button Text="Continue to main page" Grid.Column="1" Grid.ColumnSpan="3" Grid.Row="4" VerticalOptions="Center"></Button>
+    </Grid>
+      
+      
+</ContentPage>
