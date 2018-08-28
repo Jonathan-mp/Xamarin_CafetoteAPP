@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="CafetoteAPP.Views.SplashScreenView">
-  
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CafetoteAPP.Views.SplashScreenView">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width=".5*"></ColumnDefinition>
@@ -19,9 +20,8 @@
           <Image Source="background.jpg" Aspect="AspectFill" Grid.Column="0" Grid.ColumnSpan="5" Grid.Row="0" Grid.RowSpan="5"></Image>
           
           <BoxView BackgroundColor="White" Opacity=".8" Grid.Column="0" Grid.ColumnSpan="5" Grid.Row="0" Grid.RowSpan="5"></BoxView>
-          <Image Source="logo.png" Grid.Column="1" Grid.ColumnSpan="4" Grid.Row="0" Grid.RowSpan="2" VerticalOptions="Center"></Image>
-          <Label Text="SplashScreen" Grid.Column="1" Grid.ColumnSpan="3" Grid.Row="4" VerticalOptions="Center" HorizontalOptions="Center"></Label>
-   
+          <Image Source="logo.png" Grid.Column="1" Grid.ColumnSpan="4" Grid.Row="0" Grid.RowSpan="2" VerticalOptions="Fill" HorizontalOptions="FillAndExpand"></Image>
+          <Label Text="SplashScreen" FontAttributes="Bold" Grid.Column="1" Grid.ColumnSpan="3" Grid.Row="4" VerticalOptions="Center" HorizontalOptions="Center"></Label>
     </Grid>
     
 </ContentPage>

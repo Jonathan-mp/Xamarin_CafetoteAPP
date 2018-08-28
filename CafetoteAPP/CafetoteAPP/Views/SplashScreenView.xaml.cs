@@ -10,6 +10,7 @@ namespace CafetoteAPP.Views
         public SplashScreenView()
         {
             InitializeComponent();
+
         }
     }
 }
