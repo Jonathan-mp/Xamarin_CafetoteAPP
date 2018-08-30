@@ -5,14 +5,14 @@ namespace CafetoteAPP.Models
 {
     public class SplashScreenModel : Observable
     {
-       
+        
         string _version;
         public string Version
         {
             get
             {
-
-                return NSBundle.MainBundle.InfoDictionary["CFBundleVersion"].ToString();
+   
+				return string.Format("Version {0}", NSBundle.MainBundle.InfoDictionary["CFBundleVersion"].ToString());
             }
             set
             {
@@ -21,5 +21,19 @@ namespace CafetoteAPP.Models
             }
         }
 
+
+        private float _opacityLogo;
+        public float OpacityLogo
+        {
+          get
+          {
+            return _opacityLogo;
+          }
+          set
+          {
+            _opacityLogo = value;
+			NotifyPropertyChanged();
+          }
+        }
     }
 }
