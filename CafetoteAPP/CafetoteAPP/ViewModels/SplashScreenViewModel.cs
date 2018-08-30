@@ -4,13 +4,15 @@ namespace CafetoteAPP.ViewModels
 {
 
 
-public Models.SplashScreenModel _model { get; set;}
+
  
     public class SplashScreenViewModel
     {
+        public Models.SplashScreenModel _model { get; set;}
+
         public SplashScreenViewModel()
         {
-			_model ?? new SplashScreenModel();
+			_model = _model ?? new SplashScreenModel();
            
         }
     }
