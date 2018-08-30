@@ -24,7 +24,7 @@
         </Grid.RowDefinitions>
           <Image Source="background.jpg" Aspect="AspectFill" Grid.Column="0" Grid.ColumnSpan="5" Grid.Row="0" Grid.RowSpan="5"></Image>
           <BoxView BackgroundColor="White" Opacity=".8" Grid.Column="0" Grid.ColumnSpan="5" Grid.Row="0" Grid.RowSpan="5"></BoxView>
-          <Image Source="logo.png" Grid.Column="1" Grid.ColumnSpan="4" Grid.Row="0" Grid.RowSpan="5" VerticalOptions="Fill" HorizontalOptions="FillAndExpand"></Image>
+          <Image Source="logo.png" Grid.Column="1" Opacity="{Binding _model.OpacityLogo}" Grid.ColumnSpan="4" Grid.Row="0" Grid.RowSpan="5" VerticalOptions="Fill" HorizontalOptions="FillAndExpand"></Image>
           <Label Text="{Binding _model.Version}" FontSize="Default" FontAttributes="Bold" Grid.Column="1" Grid.ColumnSpan="3" Grid.Row="4" VerticalOptions="End" HorizontalOptions="Center"></Label>
     </Grid>
 </ContentPage>

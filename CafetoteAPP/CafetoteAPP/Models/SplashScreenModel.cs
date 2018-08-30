@@ -5,7 +5,7 @@ namespace CafetoteAPP.Models
 {
     public class SplashScreenModel : Observable
     {
-        
+      
         string _version;
         public string Version
         {
