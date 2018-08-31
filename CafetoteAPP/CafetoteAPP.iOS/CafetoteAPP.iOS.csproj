@@ -135,5 +135,6 @@
   <ItemGroup>
     <BundleResource Include="Resources\background.jpg" />
     <BundleResource Include="Resources\logo.png" />
+    <BundleResource Include="Resources\background_home.jpg" />
   </ItemGroup>
 </Project>

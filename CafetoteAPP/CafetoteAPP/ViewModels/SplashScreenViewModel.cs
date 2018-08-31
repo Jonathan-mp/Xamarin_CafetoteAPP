@@ -20,7 +20,7 @@ namespace CafetoteAPP.ViewModels
             _model.OpacityLogo = 0f;
 
             _timer = _timer ?? new Timer();
-            _timer.Interval = 2f;
+            _timer.Interval = 4f;
             _timer.Start();
 
             _timer.Elapsed += (s, e) => {
