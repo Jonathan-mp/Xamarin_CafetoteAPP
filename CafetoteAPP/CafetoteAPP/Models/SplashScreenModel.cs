@@ -1,11 +1,19 @@
 ﻿
 using Foundation;
+using Xamarin.Forms;
 
 namespace CafetoteAPP.Models
 {
     public class SplashScreenModel : Observable
     {
-      
+       
+
+        public SplashScreenModel()
+        {
+
+        }
+
+
         string _version;
         public string Version
         {

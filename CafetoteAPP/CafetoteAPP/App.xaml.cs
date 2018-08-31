@@ -2,6 +2,8 @@
 using CafetoteAPP.Views;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using CafetoteAPP.ViewModels;
+
 
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
 namespace CafetoteAPP
@@ -12,7 +14,8 @@ namespace CafetoteAPP
         {
             InitializeComponent();
 
-            MainPage = new SplashScreenView();
+            MainPage = new SplashScreenPage();
+           
         }
 
         protected override void OnStart()

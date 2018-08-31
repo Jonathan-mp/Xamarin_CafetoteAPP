@@ -5,12 +5,11 @@ using Xamarin.Forms;
 
 namespace CafetoteAPP.Views
 {
-    public partial class SplashScreenView : ContentPage
+    public partial class HomePage : ContentPage
     {
-        public SplashScreenView()
+        public HomePage()
         {
             InitializeComponent();
-
         }
     }
 }
