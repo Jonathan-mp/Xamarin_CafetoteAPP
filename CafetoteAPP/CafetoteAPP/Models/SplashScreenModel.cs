@@ -6,12 +6,6 @@ namespace CafetoteAPP.Models
 {
     public class SplashScreenModel : Observable
     {
-       
-
-        public SplashScreenModel()
-        {
-
-        }
 
 
         string _version;
@@ -30,7 +24,7 @@ namespace CafetoteAPP.Models
         }
 
 
-        private float _opacityLogo;
+        float _opacityLogo;
         public float OpacityLogo
         {
           get
