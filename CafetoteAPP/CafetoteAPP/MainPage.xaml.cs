@@ -7,11 +7,13 @@ using Xamarin.Forms;
 
 namespace CafetoteAPP
 {
-    public partial class MainPage : ContentPage
+    public partial class MainPage : MasterDetailPage
     {
         public MainPage()
         {
             InitializeComponent();
+			this.Master = new master();
+			this.Detail = new NavigationPage(new Views.HomePage());
         }
     }
 }

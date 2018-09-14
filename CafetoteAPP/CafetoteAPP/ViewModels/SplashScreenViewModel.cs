@@ -33,7 +33,10 @@ namespace CafetoteAPP.ViewModels
                     _timer.Dispose();
                     Device.BeginInvokeOnMainThread(() =>
                     {
-                        Application.Current.MainPage = new NavigationPage(new HomePage());
+                        Application.Current.MainPage = new MainPage();
+
+                     
+                        
                     });
 
 
